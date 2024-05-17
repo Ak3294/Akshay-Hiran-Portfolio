@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import playwithstring from "../../Assets/Projects/playwithstring.png";
+import eShoes from "../../Assets/Projects/E-Shoes.png";
+import jobPortal from "../../Assets/Projects/Job_Portal.png";
+import olympic from "../../Assets/Projects/olympic.png";
+import recommender from "../../Assets/Projects/recommender_system.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
 
 function Projects() {
   return (
@@ -23,68 +23,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={recommender}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Movie Recommendation System"
+              description="The movie recommendation system project utilizes machine learning and NLP to analyze user preferences and behavior, delivering personalized movie suggestions. This enhances user experience by providing tailored recommendations based on individual tastes and viewing history."
+              ghLink="https://github.com/Ak3294/Movie_Recommendation"
+              demoLink="https://ak3294-movie-recommendation-app-mlsv0h.streamlit.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={jobPortal}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Job Portal"
+              description="The job portal leverages advanced algorithms and a user-friendly interface to match job seekers with relevant opportunities. It streamlines the job search process by connecting employers with qualified candidates, enhancing the hiring experience for both parties."
+              ghLink="https://github.com/Ak3294/Job-Portal-with-Voice-Assistant"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={eShoes}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="E-Shoes Website"
+              description="The E Shoes website offers a wide range of stylish and comfortable footwear for all occasions. With an easy-to-navigate interface, detailed product descriptions, and secure payment options, it provides a seamless shopping experience for shoe enthusiasts."
+              ghLink="https://github.com/Ak3294/E-Shoes"
+              demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={playwithstring}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="String Converter"
+              description="The string converter website, built with ReactJS, transforms input strings into desired output formats using regular expressions. It offers a user-friendly interface for quick and accurate string manipulation, simplifying complex text processing tasks for developers and non-developers alike."
+              ghLink=""
+              demoLink="https://playwithstring.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={portfolio}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Portfolio Website"
+              description="My portfolio website showcases my comprehensive job profile and projects, highlighting my skills and achievements. It provides detailed insights into my professional journey, featuring examples of my work, and demonstrates my expertise and capabilities to potential employers and collaborators."
+              ghLink=""
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={olympic}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Olympic Data Visualization"
+              description="The Olympic data analysis and visualization project utilizes data science libraries such as NumPy, Pandas, and Seaborn to explore and visualize Olympic datasets. This project provides insights into historical trends, athlete performance, and country statistics, enhancing data-driven storytelling."
+              ghLink="https://github.com/Ak3294/Olympic_Analysis"
+              demoLink="https://ak3294-olympic-analysis-app-orruky.streamlit.app/"
             />
           </Col>
         </Row>

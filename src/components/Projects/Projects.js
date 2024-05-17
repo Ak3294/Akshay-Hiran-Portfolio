@@ -71,7 +71,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio Website"
               description="My portfolio website showcases my comprehensive job profile and projects, highlighting my skills and achievements. It provides detailed insights into my professional journey, featuring examples of my work, and demonstrates my expertise and capabilities to potential employers and collaborators."
-              ghLink=""
+              ghLink="https://github.com/Ak3294/Akshay-Hiran-Portfolio"
               demoLink=""
             />
           </Col>
